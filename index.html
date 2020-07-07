@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="form" class="form container">
+            <div>
+                <label>
+                    ФИО:
+                </label>
+                <input type="text" name="name" required>
+            </div>
+            <div>
+                <label>
+                    Email:
+                </label>
+                <input type="text" name="email" required>
+            </div>
+            <div>
+                <label>
+                    Телефон:
+                </label>
+                <input type="text" name="phone" required>
+            </div>
+            <input
+                class="submitButton"
+                type="button"
+                onclick="send()"
+                value="Отправить"
+            >
+        </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
